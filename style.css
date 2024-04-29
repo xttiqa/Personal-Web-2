@@ -1,0 +1,191 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: black;
+    position: sticky;
+    top: 0px;
+}
+
+/* LOGO */
+.a-logo {
+    text-decoration: none;
+    color: white;
+}
+.div-logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    display: inline-block;
+    padding:10px 20px;
+}
+
+/*LIST NAVBAR*/
+.ul-navbar {
+    list-style: none;
+    float: right;
+}
+
+.a-navbar {
+    text-decoration: none;
+}
+
+.li-navbar {
+    border: solid 1.5px;
+    display: inline-block;
+    padding:10px 20px;
+    margin: 0px 5px 0px 5px;
+    color: white;
+    border-radius: 3px;
+    transition-duration: 0.2s;
+}
+
+.a-navbar .li-navbar:hover {
+    color:black;
+    background-color: white;
+}
+
+/* HOME */
+.home {
+    padding: 15px;
+}
+
+.main-foto {
+    /* border: solid 1px; */
+    padding: 30px;
+    text-align: center;
+}
+.foto {
+    width: 200px;
+    border-radius: 200px;
+    border: solid 4px black;
+}
+
+.main-kata {
+    /* border: solid 1px; */
+    margin: 15px 0 15px 0;
+    padding: 5px 120px 5px 120px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+}
+
+/*ABOUT*/
+.about {
+    background-color: rgb(226, 226, 226);
+    margin: 0px;
+    padding: 1px;
+}
+
+.judul-about {
+    /* border: solid 1px; */
+    padding: 30px 15px 5px 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.ul-about {
+    /* border: solid 1px; */
+    list-style: none;
+    text-align: center;
+}
+
+.li-about {
+    display: inline-block;
+    font-size: 18px;
+    text-align: left;
+    padding: 20px;
+    width: 200px;
+    margin: 5px 15px 30px 15px;
+    background-color: rgb(100, 100, 100);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 5px 5px 1px black;
+}
+
+/* GALLERY */
+.gallery {
+    margin: 0px;
+    padding: 0px;
+}
+
+.judul-gallery {
+    padding: 30px 15px 5px 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.ul-gallery {
+    list-style: none;
+    text-align: center;
+}
+
+.li-gallery {
+    display: inline-block;
+    margin: 5px 15px 30px 15px;
+}
+.dc_foto {
+    width: 250px;
+}
+
+/* CONTACT */
+.contact {
+    background-color: rgb(100, 100, 100);
+    position: relative;
+    margin: 0px;
+    padding: 1px;
+}
+
+.judul-contact {
+    color: white;
+    padding: 30px 15px 5px 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.icon-contact {
+    width:40px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nama-contact {
+    display: inline-block;
+}
+
+.ul-contact {
+    text-align: center;
+    list-style: none;
+    
+}
+
+.li-contact {
+    color: white;
+    border: solid 2px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 1px 15px 30px 15px;
+}
+
+/* FOOTER */
+
+.footer {
+    padding: 20px;
+    background-color: black;
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color:white;
+}
+
+.judul-footer {
+    display: inline-block;
+}
